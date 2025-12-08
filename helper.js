@@ -1149,12 +1149,22 @@
 				// Group and name parameter values can be between '' or "", or bare (if value has no whitespaces)
 
 				var citations = [],
-					citationsRegExp = /<ref(\s+(?:[^>]|(?!\/>))+?)(?:\/\s*>|><\/ref>)/ig,
+					citationSelfCloseRegExp = /<ref\s+((?:[^"'/>]|"[^"]*"|'[^']*')*)\s*\/>/ig,
+					citationEmptyRegExp = /<ref\s+((?:[^"'>]|"[^"]*"|'[^']*')*)>\s*<\/ref>/ig,
 					rTemplateRegExp = /\{\{\s*[Rr]\|([^}]+)\}\}/ig,
 					match,
 					citation;
 
-				while ((match = citationsRegExp.exec(textPart.string))) {
+				while ((match = citationSelfCloseRegExp.exec(textPart.string))) {
+					// Turn all the matches into citation objects
+					citation = refcon.parseReference(match, 'citation');
+
+					if (typeof citation === 'object' && typeof citation.name !== 'undefined') {
+						citations.push(citation);
+					}
+				}
+
+				while ((match = citationEmptyRegExp.exec(textPart.string))) {
 
 					// Turn all the matches into citation objects
 					citation = refcon.parseReference(match, 'citation');
@@ -1174,7 +1184,7 @@
 				// Look for all references
 
 				var references = [],
-					referencesRegExp = /<ref(\s+[^>]+?)?>([\s\S]*?)<\/ref>/ig,
+					referencesRegExp = /<ref(\s+(?:[^"'/>]|"[^"]*"|'[^']*')*)?>([^]*?)<\/ref>/ig,
 					match,
 					reference;
 
