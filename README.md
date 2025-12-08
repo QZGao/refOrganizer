@@ -1,5 +1,7 @@
 # refOrganizer
 
+專案頁面：[User:SuperGrey/gadgets/refOrganizer](https://zh.wikipedia.org/wiki/User:SuperGrey/gadgets/refOrganizer)
+
 參考文獻整理工具，可快速將參考文獻挪動到 `{{Reflist}}` 模板內，並將文內參照改為 `{{R}}` 模板。
 
 This is an updated version of the original Reference Organizer which sadly doesn't update anymore since 2017. The main changes are:
@@ -41,8 +43,16 @@ refConsolidateConfig.usetemplateR = false;
 
 If you wish to use `<ref />` instead of `{{R}}`, paste the above lines on [m:Special:MyPage/global.js](https://meta.wikimedia.org/wiki/Special:MyPage/global.js) (or whichever place you install the script on).
 
-## Copyright 著作權標識
+## License
 
-- [en:Wikipedia:ProveIt](https://en.wikipedia.org/wiki/Wikipedia:ProveIt)（CC BY-SA 3.0、GNU GPL 2.0）
-- [en:User:Kaniivel/Reference Organizer](https://en.wikipedia.org/wiki/User:Kaniivel/Reference_Organizer)（GNU FDL、CC BY-SA 3.0、GNU GPL 2.0）
-- [User:Vozhuo/Tool/Reference Organizer](https://en.wikipedia.org/wiki/User:Vozhuo/Tool/Reference_Organizer)
+This project is licensed under the following licenses:
+
+- [GNU Free Documentation License 1.3](LICENSE-FDL)
+- [Creative Commons Attribution-ShareAlike 3.0 Unported](LICENSE-CC-BY-SA)
+- [GNU General Public License 2.0](LICENSE)
+
+This project incorporates code from the following projects:
+
+- [en:Wikipedia:ProveIt](https://en.wikipedia.org/wiki/Wikipedia:ProveIt) (CC BY-SA 3.0、GNU GPL 2.0)
+- [en:User:Kaniivel/Reference Organizer](https://en.wikipedia.org/wiki/User:Kaniivel/Reference_Organizer) (GNU FDL、CC BY-SA 3.0、GNU GPL 2.0)
+  - [User:Vozhuo/Tool/Reference Organizer](https://en.wikipedia.org/wiki/User:Vozhuo/Tool/Reference_Organizer)
