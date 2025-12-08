@@ -1149,7 +1149,7 @@
 				// Group and name parameter values can be between '' or "", or bare (if value has no whitespaces)
 
 				var citations = [],
-					citationsRegExp = /<ref(\s+[^/>]+)(?:\/\s*>|><\/ref>)/ig,
+					citationsRegExp = /<ref(\s+(?:[^>]|(?!\/>))+?)(?:\/\s*>|><\/ref>)/ig,
 					rTemplateRegExp = /\{\{\s*[Rr]\|([^}]+)\}\}/ig,
 					match,
 					citation;
@@ -1174,7 +1174,7 @@
 				// Look for all references
 
 				var references = [],
-					referencesRegExp = /<ref(\s+[^\/]+?)?>([\s\S]*?)<\/ref>/ig,
+					referencesRegExp = /<ref(\s+[^>]+?)?>([\s\S]*?)<\/ref>/ig,
 					match,
 					reference;
 
