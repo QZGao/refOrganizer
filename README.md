@@ -53,6 +53,6 @@ This project is licensed under the following licenses:
 
 This project incorporates code from the following projects:
 
-- [en:Wikipedia:ProveIt](https://en.wikipedia.org/wiki/Wikipedia:ProveIt) (CC BY-SA 3.0、GNU GPL 2.0)
-- [en:User:Kaniivel/Reference Organizer](https://en.wikipedia.org/wiki/User:Kaniivel/Reference_Organizer) (GNU FDL、CC BY-SA 3.0、GNU GPL 2.0)
-  - [User:Vozhuo/Tool/Reference Organizer](https://en.wikipedia.org/wiki/User:Vozhuo/Tool/Reference_Organizer)
+- ![Wiki](https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/Wiki.svg) [en:Wikipedia:ProveIt](https://en.wikipedia.org/wiki/Wikipedia:ProveIt) (CC BY-SA 3.0、GNU GPL 2.0)
+- ![Repository](https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/Repository.svg) [Cumbril/refcon](https://github.com/Cumbril/refcon) & ![Wiki](https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/Wiki.svg) [en:User:Kaniivel/Reference Organizer](https://en.wikipedia.org/wiki/User:Kaniivel/Reference_Organizer) (GNU FDL、CC BY-SA 3.0、GNU GPL 2.0)
+  - ![Wiki](https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/Wiki.svg) [User:Vozhuo/Tool/Reference Organizer](https://en.wikipedia.org/wiki/User:Vozhuo/Tool/Reference_Organizer)
