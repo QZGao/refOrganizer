@@ -45,14 +45,10 @@ If you wish to use `<ref />` instead of `{{R}}`, paste the above lines on [m:Spe
 
 ## License
 
-This project is licensed under the following licenses:
-
-- [GNU Free Documentation License 1.3](LICENSE-FDL)
-- [Creative Commons Attribution-ShareAlike 3.0 Unported](LICENSE-CC-BY-SA)
-- [GNU General Public License 2.0](LICENSE)
+This project is licensed under the [GNU General Public License 3.0](LICENSE).
 
 This project incorporates code from the following projects:
 
 - ![Wiki](https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/Wiki.svg) [en:Wikipedia:ProveIt](https://en.wikipedia.org/wiki/Wikipedia:ProveIt) (CC BY-SA 3.0, GNU GPL 2.0)
-- ![Repository](https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/Repository.svg) [Cumbril/refcon](https://github.com/Cumbril/refcon) & ![Wiki](https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/Wiki.svg) [en:User:Kaniivel/Reference Organizer](https://en.wikipedia.org/wiki/User:Kaniivel/Reference_Organizer) (GNU FDL, CC BY-SA 3.0, GNU GPL 2.0)
+- ![Repository](https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/Repository.svg) [Cumbril/refcon](https://github.com/Cumbril/refcon) & ![Wiki](https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/Wiki.svg) [en:User:Kaniivel/Reference Organizer](https://en.wikipedia.org/wiki/User:Kaniivel/Reference_Organizer) (GNU GPL 3.0)
   - ![Wiki](https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/Wiki.svg) [User:Vozhuo/Tool/Reference Organizer](https://en.wikipedia.org/wiki/User:Vozhuo/Tool/Reference_Organizer)
