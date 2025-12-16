@@ -1,5 +1,9 @@
 # refOrganizer
 
+> ℹ️ LESS MAINTAINED NOTICE
+>
+> This user script is not actively maintained, as I have created a new script named [Cite Forge](https://github.com/QZGao/CiteForge) which contains all features refOrganizer provides. Please consider switching to that user script instead.
+
 專案頁面：[User:SuperGrey/gadgets/refOrganizer](https://zh.wikipedia.org/wiki/User:SuperGrey/gadgets/refOrganizer)
 
 參考文獻整理工具，可快速將參考文獻挪動到 `{{Reflist}}` 模板內，並將文內參照改為 `{{R}}` 模板。
